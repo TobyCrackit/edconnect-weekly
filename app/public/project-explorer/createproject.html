@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+   .footer{
+       padding:10px;
+       margin-top:10px;
+       margin-right:10px;
+   }
+
+    </style>
+    </head>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+        <div class="d-flex justify-content-start">
+        <a class="navbar-brand" >Project Explorer</a>
+        <form name="searchForm" class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <a class="btn btn-primary text-white" href="createproject.html" >Submit</a>
+        </div>
+        <div class="col-md-6">
+            <nav class="navbar justify-content-end">
+        
+        <a class="btn btn-primary" href="register.html" >Sign Up</a>
+        <a class="btn btn-primary" href="login.html" >Login</a>
+        </div>
+        </nav>
+        </nav>
+        </header>
+        
+        <main>
+        
+
+        <div class=" container mx-auto w-50">
+        <div class="container mt-5">
+            <h3 class="mt-5">Submit Project</h3>
+        </div>
+        <form name="submitProject"> 
+            <div class="form-group col-md-10">
+            <label for="name">Project Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Enter project name">
+            </div>
+            <div class="form-group col-md-10">
+            <label for="abstract">Project Abstract</label>
+            <textarea type="text" name="abstract" class="form-control" rows="10"></textarea>
+            </div>
+            <div class="form-group col-md-10">
+            <label for="authors">Author(s)</label>
+            <input type="text" name="authors" class="form-control" placeholder="Enter author names (seperated by commas)">
+            </div>
+            <div class="form-group col-md-10">
+            <label for="tags">Tags</label>
+            <input type="text" name="tags" class="form-control" placeholder="Use # to tag projects with different topics (e.g. #Javascript #mongodb)">
+            </div>
+            
+            
+        </form>
+        
+            <button type="button" class="btn btn-primary">Submit</button>
+            
+        </div>
+        </main>
+
+        <footer class="row bg-light justify-content-end footer">
+            <div class="">
+                <span class="text-secondary">Project Explorer &copy; 2020</span>
+                Edconnect
+            </div>
+        </footer>
+</html>

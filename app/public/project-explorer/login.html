@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+    body{
+        padding: 5px;
+        
+    }
+    .my-form{
+        justify-content: center;
+    }
+    footer{
+        padding-top: 10px;
+        margin-top: 50px;
+    }
+    </style>
+    </head>
+    
+    <body>
+    <header>
+    <nav class="navbar navbar-dark bg-primary">
+    <div class="d-flex justify-content-start">
+    <a class="navbar-brand" >Project Explorer</a>
+    <form name="searchForm" class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <a class="btn btn-primary text-white" href="createproject.html" >Submit</a>
+    </div>
+    <div class="col-md-6">
+        <nav class="navbar justify-content-end">
+    
+    <a class="btn btn-primary" href="register.html" >Sign Up</a>
+    <a class="btn btn-primary" href="login.html" >Login</a>
+    </div>
+    </nav>
+    </nav>
+    </header>
+
+<div class="mx-auto" style="width: 500px;"> 
+    <h1 class="form-row">Login</h1>
+<form>
+<div class="form-group">
+    <label class="form-label" for="email">Email address:</label>
+    <input type="email" class="form-control" name="email" placeholder="Enter Email">
+</div>
+<div class="form-group">
+    <label class="form-label" for="password">Password:</label>
+    <input type="password" class="form-control" name="password" placeholder="Password">
+</div>
+<button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+</div>
+
+
+    <footer class="row bg-light justify-content-end footer">
+        <div class="col-md-3">
+            <span class="text-secondary">Project Explorer &copy; 2020</span>
+            Edconnect
+        </div>
+    </footer>
+    
+</body>
+</html>

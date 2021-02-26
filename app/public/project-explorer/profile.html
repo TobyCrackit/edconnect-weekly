@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+   .footer{
+       padding:10px;
+       margin-top:10px;
+       margin-right:10px;
+   }
+   .row1{
+       margin-top:30px;
+   }
+   .namerow{
+       margin-top:30px;
+   }
+
+    </style>
+    </head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+        <div class="d-flex justify-content-start">
+        <a class="navbar-brand" >Project Explorer</a>
+        <form name="searchForm" class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <a class="btn btn-primary text-white" href="createproject.html" >Submit</a>
+        </div>
+        <div class="col-md-6">
+            <nav class="navbar justify-content-end">
+        
+        <a class="btn btn-primary" href="register.html" >Sign Up</a>
+        <a class="btn btn-primary" href="login.html" >Login</a>
+        </div>
+        </nav>
+        </nav>
+        </header>
+        <div class="container">
+            <main class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                            <div class="namerow">
+                                <span class="h4">Oluwatoyin Oluwatobiloba</span>
+                                <span class="text-secondary">john.doe@gmail.com</span>
+                            </div>
+                            
+                        <div class="row bg-light row1 col-md-12">
+                            <div class="col-md-4">
+                                Program
+                                <p class="text-left">Computer Information Systems</p>
+                            </div>
+                            <div class="col-md-4">
+                                Matriculation Number
+                                <p class="text-left">00/0000</p>
+                            </div>
+                            <div class="col-md-4">
+                                Graduation Year
+                                <p class="text-left">2019</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+    <div class="row col-md-6 row1 justify-content-start">
+    <h3>Update Profile</h3>
+    </div>
+    <form name="updateProfile">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstName" class="form-control" placeholder="First Name">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="lastname">Last Name</label>
+        <input type="password" class="form-control" placeholder="Last Name">
+    </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" name="email" class="form-control">
+        </div>
+
+            <div class="form-group col-md-6">
+                <label for="program">Program:</label>
+                    <select name="program" class="form-control">
+                        <option selected>Choose...</option>
+                        <option value="computer_science" name="program">Computer Science</option>
+                        <option value="computer_information_systems" name="program">Computer Information Systems</option>
+                        <option value="computer_technology" name="program">Computer Technology</option>
+                        </select>
+            </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="matricNumber">Matriculation Number</label>
+                    <input type="text" name="matricNumber" class="form-control" placeholder="eg 16/2020">
+                </div>
+        <div class="form-group col-md-6">
+        <label for="graduationYear">Graduation Year:</label>
+        <select name="graduationYear" class="form-control">
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+        </select>
+        </div>
+            </div>
+            </main> 
+            <button type="button" class="btn btn-primary">Update Profile</button>       
+        
+        
+    </form>
+
+    <div class="row col-md-6 row1">
+        <h3>Change Password</h3>
+        </div>
+
+        <form name="changepassword">
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                <label for="currentPassword">Current Password</label>
+                <input type="password" class="form-control" name="currentPassword" placeholder="Current password">
+                </div>
+                <div class="form-group col-md-4">
+                <label for="newPassword">New Password</label>
+                <input type="password" class="form-control" name="newPassword" placeholder="Your new password">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm new password">
+                    </div>
+            </div>
+            <button type="button" class="btn btn-primary">Change Password</button>
+        </form>
+</div>
+    
+
+    
+</body>
+<footer class="row bg-light justify-content-end footer">
+    <div class="">
+        <span class="text-secondary">Project Explorer &copy; 2020</span>
+        Edconnect
+    </div>
+</footer>
+
+
+
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+   
+    </style>
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+        <div class="d-flex justify-content-start">
+        <a href="index.html" class="navbar-brand" >Project Explorer</a>
+        <form name="searchForm" class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <a class="btn btn-primary text-white" href="createproject.html" >Submit</a>
+        </div>
+        <div class="col-md-6">
+            <nav class="navbar justify-content-end">
+        
+        <a class="btn btn-primary" href="register.html" >Sign Up</a>
+        <a class="btn btn-primary" href="login.html" >Login</a>
+        </div>
+        </nav>
+        </nav>
+        </header>
+        <div class="container">
+            <h3>Signup</h3>
+            <form>
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstName" class="form-control" placeholder="First Name">
+    </div>
+    <div class="form-group col-md-6">
+        <label for="lastname">Last Name</label>
+        <input type="password" class="form-control" placeholder="Last Name">
+    </div>
+</div>
+<div class="form-row">
+<div class="form-group col-md-6">
+    <label for="email">Email</label>
+    <input type="email" name="email" class="form-control" placeholder="Your Email Address">
+</div>
+<div class="form-group col-md-6">
+<label for="password">Password</label>
+<input type="password" name="password" class="form-control" placeholder="Your Passowrd">
+</div>
+</div>
+
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="program">Program:</label>
+            <select name="program" class="form-control">
+                <option selected>Choose...</option>
+                <option value="computer_science" name="program">Computer Science</option>
+                <option value="computer_information_systems" name="program">Computer Information Systems</option>
+                <option value="computer_technology" name="program">Computer Technology</option>
+                </select>
+    </div>
+    <div class="form-group col-md-3">
+        <label for="matricNumber">Matriculation Number</label>
+        <input type="text" name="matricNumber" class="form-control" placeholder="eg 16/2020">
+    </div>
+    <div class="form-group col-md-3">
+        <label for="graduationYear">Graduation Year</label>
+            <select name="graduationYear" class="form-control">
+                <option selected>Choose...</option>
+                <option value="2013" name="graduationYear">2013</option>
+                <option value="2014" name="graduationYear">2014</option>
+                <option value="2015" name="graduationYear">2015</option>
+                <option value="2016" name="graduationYear">2016</option>
+                <option value="2017" name="graduationYear">2017</option>
+                <option value="2018" name="graduationYear">2018</option>
+                <option value="2019" name="graduationYear">2019</option>
+                <option value="2020" name="graduationYear">2020</option>
+            </select>
+    </div>
+</div>
+<button type="button" class="btn btn-primary">Sign Up</button>
+</form>
+
+
+</body>
+
+<footer class="row bg-light align-items-center justify-content-end footer">
+    <div class="col-md-3">
+        <span class="text-secondary">Project Explorer &copy; 2020 </span>Edconnect</div>
+</footer>
+</html>

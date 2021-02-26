@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+   .footer{
+       padding:10px;
+       margin-top:10px;
+       margin-right:10px;
+   }
+   #projects{
+       margin-top:50px;
+   }
+   h3{
+       margin-top:30px;
+   }
+
+    </style>
+    </head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+        <div class="d-flex justify-content-start">
+        <a class="navbar-brand" >Project Explorer</a>
+        <form name="searchForm" class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <a class="btn btn-primary text-white" href="createproject.html" >Submit</a>
+        </div>
+        <div class="col-md-6">
+            <nav class="navbar justify-content-end">
+        
+        <a class="btn btn-primary" href="register.html" >Sign Up</a>
+        <a class="btn btn-primary" href="login.html" >Login</a>
+        </div>
+        </nav>
+        </nav>
+        </header>
+<div class="container">
+        
+        <div class="row col-md-6">
+          <h3>Project Gallery</h3>
+          </div>
+    
+    <form> 
+    <div class="form-row align-items-center bg-light p-3 border">
+        
+    <div class="col-6">
+        <input type="text" class="form-control" placeholder="Search project name, authors, abstract, tags">
+    </div>
+    <div class="input-group-prepend">
+        <div class="input-group-text">Search by</div>
+        </div>
+        <div class="col-sm-2">
+        <select name="program" class="form-control">
+            <option selected>Name</option>
+            <option value="computer_science" name="program">Computer Science</option>
+            <option value="computer_information_systems" name="program">Computer Information Systems</option>
+            <option value="computer_technology" name="program">Computer Technology</option>
+            </select>
+            </div>
+            
+            <button type="button" class="btn btn-primary">Submit</button>
+            
+        </div>
+    </form>
+        
+
+        <div class="row" id="projects">
+            <h5>All Projects</h5>
+            <span class="text-secondary">(0 results)</span>
+            </div>
+            <div class="row">
+                <section class="col-md-3">
+                    <div class="card col-md-14">
+                        <div class="card-body">
+                        <h4 class="card-title text-primary">Project 1</h4>
+                        <div class="card-subtitle text-secondary">Author1,Author2</div>
+                        <div class="card-text">
+                            Some quick example text to build the 
+                            card title and make up the bulk of the card's content.
+                        </div>
+                        <div class="card-footer text-primary bg-white">
+                            #html #css #javascript
+                        </div>
+                        </div>
+                    </div>
+                    </section>
+                    <section class="col-md-3">
+                        <div class="card col-md-14">
+                            <div class="card-body">
+                            <h4 class="card-title text-primary">Project 1</h4>
+                            <div class="card-subtitle text-secondary">Author1,Author2</div>
+                            <div class="card-text">
+                                Some quick example text to build the 
+                                card title and make up the bulk of the card's content.
+                            </div>
+                            <div class="card-footer text-primary bg-white">
+                                #html #css #javascript
+                            </div>
+                            </div>
+                        </div>
+                        </section>
+            </div>
+</div>
+
+
+</body>
+
+
+<footer class="row bg-light justify-content-end footer">
+    <div class="">
+        <span class="text-secondary">Project Explorer &copy; 2020</span>
+        Edconnect
+    </div>
+</footer>
+</html>
